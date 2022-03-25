@@ -1,0 +1,153 @@
+                @media screen and (max-width: $breakpoint-logoXl) {
+                    .navbar-brand {
+                        width: 10vw !important;
+                        .logo {
+                            .logo-text {
+                                font-size: 2vw;
+                            }
+                            .logo-img {
+                                width: 2.5vw;
+                                height: 2.5vw;
+                            }
+                        }
+                    }
+                }
+                
+                @media screen and (max-width: $breakpoint-navCollapse) {
+                    .age-sort {
+                        margin-left: 0;
+                        width: 9vw;
+                    }
+                    .sort-img {
+                        display: none;
+                    }
+                    .navbar {
+                        font-size: 2.5vw !important;
+                    }
+                    .navbar-brand {
+                        width: 14vw !important;
+                        .logo {
+                            .logo-text {
+                                font-size: 3vw !important;
+                            }
+                            .logo-img {
+                                width: 3vw !important;
+                                height: 3vw !important;
+                            }
+                        }
+                    }
+                }
+                
+                @media screen and (max-width: $breakpoint-logoM) {
+                    .age-sort {
+                        width: 11vw !important;
+                    }
+                    .navbar {
+                        font-size: 3vw !important;
+                    }
+                    .navbar-brand {
+                        width: 18vw !important;
+                        .logo {
+                            .logo-text {
+                                font-size: 4vw !important;
+                            }
+                            .logo-img {
+                                width: 3.5vw !important;
+                                height: 3.5vw !important;
+                            }
+                        }
+                    }
+                    .swiper-slide .title {
+                        font-size: 3.5vw;
+                    }
+                    .swiper-slide .subtitle {
+                        font-size: 2vw;
+                    }
+                    .text-container {
+                        width: 50vw;
+                    }
+                }
+                
+                @media screen and (max-width: $breakpoint-xs) {
+                    .age-sort {
+                        width: 14vw !important;
+                    }
+                    .navbar {
+                        font-size: 4vw !important;
+                    }
+                    .card-img-top {
+                        display: none !important;
+                    }
+                }
+                
+                @media screen and (max-width: $breakpoint-logoS) {
+                    .navbar {
+                        font-size: 5vw !important;
+                    }
+                    .navbar-brand {
+                        width: 22vw !important;
+                        .logo {
+                            .logo-text {
+                                font-size: 5vw !important;
+                            }
+                            .logo-img {
+                                width: 4vw !important;
+                                height: 4vw !important;
+                            }
+                        }
+                    }
+                    .swiper-slide .title {
+                        font-size: 4.5vw;
+                    }
+                    .swiper-slide .subtitle {
+                        font-size: 2.5vw;
+                    }
+                    .text-container {
+                        width: 70vw;
+                    }
+                }
+                
+                @media screen and (max-width: $breakpoint-logoXS) {
+                    .navbar-brand {
+                        width: 27vw !important;
+                        .logo {
+                            .logo-text {
+                                font-size: 6vw !important;
+                            }
+                            .logo-img {
+                                width: 4.5vw !important;
+                                height: 4.5vw !important;
+                            }
+                        }
+                    }
+                    .main-footer {
+                        font-size: 4vw;
+                    }
+                }
+                
+                @media screen and (max-width: $breakpoint-logoXXS) {
+                    .navbar {
+                        font-size: 6vw !important;
+                    }
+                    .navbar-brand {
+                        width: 33vw !important;
+                        .logo {
+                            .logo-text {
+                                font-size: 7vw !important;
+                            }
+                            .logo-img {
+                                width: 6vw !important;
+                                height: 6vw !important;
+                            }
+                        }
+                    }
+                    .swiper-slide .title {
+                        font-size: 5vw;
+                    }
+                    .swiper-slide .subtitle {
+                        font-size: 3vw;
+                    }
+                    .main-footer {
+                        font-size: 3.5vw;
+                    }
+                }

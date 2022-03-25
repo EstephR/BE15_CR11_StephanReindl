@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lobster", cursive;
+}
+
+.navbar {
+  background: #cd7979 !important;
+  font-size: 1.5vw !important;
+}
+.navbar .navbar-brand {
+  width: 9vw;
+}
+.navbar .navbar-brand .logo {
+  width: 100%;
+  height: 100%;
+  border: 5px white solid;
+  border-radius: 50%;
+  padding: 20px;
+}
+.navbar .navbar-brand .logo .logo-text {
+  font-size: 2vw;
+}
+.navbar .navbar-brand .logo .logo-img {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+
+.sort-img {
+  width: 1.5vw;
+  height: 1.5vw;
+}
+
+.age-sort {
+  margin-left: 20px;
+  background: #b9cdce !important;
+  border-radius: 5px;
+}
+.age-sort:hover {
+  background: white !important;
+  cursor: pointer;
+}
+.age-sort a {
+  color: white !important;
+}
+.age-sort a:hover {
+  color: #cd7979 !important;
+}
+
+.btn {
+  background: #b9cdce !important;
+  color: white;
+  border-style: none;
+}
+.btn:hover {
+  background: white !important;
+  color: #cd7979;
+}
+
+.swiper {
+  width: 100%;
+  height: 100vh;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 40px 60px;
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide .title {
+  font-size: 3vw;
+  font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+  font-size: 1.5vw;
+}
+
+.text-container {
+  background: rgba(0, 0, 0, 0.377);
+  width: 40vw;
+  padding: 50px;
+}
+
+.card-header {
+  background: #cd7979 !important;
+}
+
+.vaccine-container .vaccine-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.main-footer {
+  width: 100%;
+  background: #cd7979;
+}
+.main-footer .social-media {
+  width: 30%;
+  margin: 0 auto;
+}
+.main-footer .social-media .social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar-brand {
+    width: 10vw !important;
+  }
+  .navbar-brand .logo .logo-text {
+    font-size: 2vw;
+  }
+  .navbar-brand .logo .logo-img {
+    width: 2.5vw;
+    height: 2.5vw;
+  }
+}
+@media screen and (max-width: 991px) {
+  .age-sort {
+    margin-left: 0;
+    width: 9vw;
+  }
+
+  .sort-img {
+    display: none;
+  }
+
+  .navbar {
+    font-size: 2.5vw !important;
+  }
+
+  .navbar-brand {
+    width: 14vw !important;
+  }
+  .navbar-brand .logo .logo-text {
+    font-size: 3vw !important;
+  }
+  .navbar-brand .logo .logo-img {
+    width: 3vw !important;
+    height: 3vw !important;
+  }
+}
+@media screen and (max-width: 740px) {
+  .age-sort {
+    width: 11vw !important;
+  }
+
+  .navbar {
+    font-size: 3vw !important;
+  }
+
+  .navbar-brand {
+    width: 18vw !important;
+  }
+  .navbar-brand .logo .logo-text {
+    font-size: 4vw !important;
+  }
+  .navbar-brand .logo .logo-img {
+    width: 3.5vw !important;
+    height: 3.5vw !important;
+  }
+
+  .swiper-slide .title {
+    font-size: 3.5vw;
+  }
+
+  .swiper-slide .subtitle {
+    font-size: 2vw;
+  }
+
+  .text-container {
+    width: 50vw;
+  }
+}
+@media screen and (max-width: 576px) {
+  .age-sort {
+    width: 14vw !important;
+  }
+
+  .navbar {
+    font-size: 4vw !important;
+  }
+
+  .card-img-top {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 520px) {
+  .navbar {
+    font-size: 5vw !important;
+  }
+
+  .navbar-brand {
+    width: 22vw !important;
+  }
+  .navbar-brand .logo .logo-text {
+    font-size: 5vw !important;
+  }
+  .navbar-brand .logo .logo-img {
+    width: 4vw !important;
+    height: 4vw !important;
+  }
+
+  .swiper-slide .title {
+    font-size: 4.5vw;
+  }
+
+  .swiper-slide .subtitle {
+    font-size: 2.5vw;
+  }
+
+  .text-container {
+    width: 70vw;
+  }
+}
+@media screen and (max-width: 430px) {
+  .navbar-brand {
+    width: 27vw !important;
+  }
+  .navbar-brand .logo .logo-text {
+    font-size: 6vw !important;
+  }
+  .navbar-brand .logo .logo-img {
+    width: 4.5vw !important;
+    height: 4.5vw !important;
+  }
+
+  .main-footer {
+    font-size: 4vw;
+  }
+}
+@media screen and (max-width: 330px) {
+  .navbar {
+    font-size: 6vw !important;
+  }
+
+  .navbar-brand {
+    width: 33vw !important;
+  }
+  .navbar-brand .logo .logo-text {
+    font-size: 7vw !important;
+  }
+  .navbar-brand .logo .logo-img {
+    width: 6vw !important;
+    height: 6vw !important;
+  }
+
+  .swiper-slide .title {
+    font-size: 5vw;
+  }
+
+  .swiper-slide .subtitle {
+    font-size: 3vw;
+  }
+
+  .main-footer {
+    font-size: 3.5vw;
+  }
+}/*# sourceMappingURL=style.css.map */

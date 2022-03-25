@@ -1,0 +1,12 @@
+.main-footer {
+    width: 100%;
+    background: $main-background;
+    .social-media {
+        width: 30%;
+        margin: 0 auto;
+        .social-icon {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}

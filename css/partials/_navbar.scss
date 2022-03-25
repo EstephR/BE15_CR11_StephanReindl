@@ -1,0 +1,52 @@
+    .navbar {
+        background: $main-background !important;
+        font-size: 1.5vw !important;
+        .navbar-brand {
+            width: 9vw;
+            .logo {
+                width: 100%;
+                height: 100%;
+                border: 5px white solid;
+                border-radius: 50%;
+                padding: 20px;
+                .logo-text {
+                    font-size: 2vw;
+                }
+                .logo-img {
+                    width: 2.5vw;
+                    height: 2.5vw;
+                }
+            }
+        }
+    }
+    
+    .sort-img {
+        width: 1.5vw;
+        height: 1.5vw;
+    }
+    
+    .age-sort {
+        margin-left: 20px;
+        background: $main-background2 !important;
+        border-radius: 5px;
+        &:hover {
+            background: white !important;
+            cursor: pointer;
+        }
+        a {
+            color: white !important;
+            &:hover {
+                color: $main-background !important;
+            }
+        }
+    }
+    
+    .btn {
+        background: $main-background2 !important;
+        color: white;
+        border-style: none;
+        &:hover {
+            background: white !important;
+            color: $main-background;
+        }
+    }
