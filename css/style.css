@@ -120,6 +120,38 @@ body {
   height: 20px;
 }
 
+h1 {
+  background: #b9cdce;
+  width: 50%;
+}
+
+.admin-container {
+  min-height: 700px;
+}
+
+.sort-btn {
+  width: 200px;
+  font-size: 2em;
+  background: #cd7979 !important;
+}
+.sort-btn:hover {
+  background: #b9cdce !important;
+  color: white;
+}
+
+.table-headline {
+  background: #cd7979;
+}
+
+.adm-picture {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
 @media screen and (max-width: 1200px) {
   .navbar-brand {
     width: 10vw !important;

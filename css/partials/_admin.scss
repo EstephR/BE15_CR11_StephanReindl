@@ -1,0 +1,29 @@
+h1 {
+    background: $main-background2;
+    width: 50%;
+}
+
+.admin-container {
+    min-height: 700px;
+}
+
+.sort-btn {
+    width: 200px;
+    font-size: 2em;
+    background: $main-background !important;
+    &:hover {
+        background: $main-background2 !important;
+        color: white;
+    }
+}
+
+.table-headline {
+    background: $main-background;
+}
+
+.adm-picture {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
