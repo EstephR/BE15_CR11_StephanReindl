@@ -43,6 +43,7 @@ mysqli_close($connect);
     <head>
         <meta charset="UTF-8">
         <title>Return Animal</title>
+        <link rel="icon" href="../img/favicon.png" type="image/x-icon">
         <?php require_once "../../components/bootstrap.php"?>
         <link rel="stylesheet" href="../../../css/style.css">
     </head>

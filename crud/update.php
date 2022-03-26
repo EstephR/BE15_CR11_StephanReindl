@@ -34,13 +34,15 @@ if($_GET["id"]) {
         $description = $data["description"];
         $hobbies = $data["hobbies"];
         $location = $data["location"];
+        $picture = $data["picture"];
     } else {
-        header("location: ../dashboard.php");
+        header("location: dashboard.php");
     }
-    mysqli_close($connect);
+   
 } else {
-    header("location: ../dashboard.php");
+    header("location: dashboard.php");
 }
+mysqli_close($connect);
 
 ?>
 
@@ -68,7 +70,7 @@ if($_GET["id"]) {
         </div>
 
     <fieldset class="mb-5 w-50">
-        <form method="post" enctype="multipart/form-data">
+        <form acion="animals/actions/a_update.php" method="post" enctype="multipart/form-data">
             <table class='table'>
                 <tr>
                     <th>Name</th>
@@ -84,14 +86,39 @@ if($_GET["id"]) {
                 </tr>
                 <tr>
                     <th>Size</th>
-                    <td><input class='form-control' type="text" name= "size" placeholder="Size" value="<?=$size?>"/></td>
+                    <td><select class='form-control' type="text" name= "size">
+                        <option value="default">...</option>
+                        <option value="small">small</option>
+                        <option value="small">medium</option>
+                        <option value="small">big</option>
+                    </select>
+                    </td>
                 </tr>
                 <tr>
                     <th>Age</th>
                     <td><input class='form-control' type="number" name= "age" value="<?=$age?>"/></td>
                 </tr>
-
-
+                <tr>
+                    <th>Vaccine</th>
+                    <td><select class='form-control' type="text" name= "vaccine">
+                        <option value="default">...</option>
+                        <option value="small">Yes</option>
+                        <option value="small">No</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Description</th>
+                    <td><input class='form-control' type="text" name= "description" placeholder="Description"value="<?=$description?>"/></td>
+                </tr>
+                <tr>
+                    <th>Hobbies</th>
+                    <td><input class='form-control' type="text" name= "hobbies" placeholder="Hobbies"value="<?=$hobbies?>"/></td>
+                </tr>
+                <tr>
+                    <th>Location</th>
+                    <td><input class='form-control' type="text" name= "location" placeholder="Location" value="<?=$location?>"/></td>
+                </tr>
                 <tr>
                     <th>Picture</th>
                     <td><input class='form-control' type="file" name="picture"  placeholder="media Type" value="<?=$type?>"/></td>
@@ -102,7 +129,7 @@ if($_GET["id"]) {
                 </tr>    
                 <tr> 
                 <td></td>
-                    <td class="d-flex justify-content-center"><button class='btn btn-warning p-3 w-50' name="submit" type="submit">Change User Data</button></td>
+                    <td class="d-flex justify-content-center"><button class='btn btn-warning p-3 w-50' name="submit" type="submit">Change Data</button></td>
                 </tr>
             </table>
         </form>
