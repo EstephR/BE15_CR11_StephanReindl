@@ -92,6 +92,7 @@ $row_details = mysqli_fetch_assoc($result);
 </div>
 
 <?php require_once "components/footer.php" ?>
+<?php require_once "components/bootstrap_script.php" ?>
 
 </body>
 </html>

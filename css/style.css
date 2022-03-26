@@ -152,6 +152,10 @@ h1 {
      object-position: center;
 }
 
+.nav-item > a > .btn {
+  width: 130px;
+}
+
 @media screen and (max-width: 1200px) {
   .navbar-brand {
     width: 10vw !important;

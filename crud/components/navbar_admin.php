@@ -9,9 +9,17 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-5">
-            <a class="nav-link" href="pets_available.php"><button class="btn btn-success p-3 ms-5">Update User</button></a>
-                <a class="nav-link" href="pets_available.php"><button class="btn btn-success p-3">Create New Pet</button></a>
-                <a class="nav-link" href="logout.php?logout"><button class="btn btn-outline-danger p-3">Log out</button></a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="pets_available.php"><button class="btn btn-success p-3">Update User</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pets_available.php"><button class="btn btn-success p-3">Create New Pet</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="logout.php?logout"><button class="btn btn-outline-danger p-3">Log out</button></a>
+                    </li>
+                </ul>
             </div>
             </div>
         </div>

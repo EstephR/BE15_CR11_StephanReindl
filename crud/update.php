@@ -62,12 +62,12 @@ if($_GET["id"]) {
       <p><?php echo ($uploadError) ?? ''; ?></p>
   </div>
 
-  <div class="container admin-container">
-        <div class="d-flex flex-column align-items-center">
+  <div class="container admin-container d-flex flex-column align-items-center">
+        <div class="d-flex flex-column align-items-center w-100">
             <h1 class="p-3 text-light text-center mt-5 mb-5">Update Data</h1>
         </div>
 
-    <fieldset class="mb-5">
+    <fieldset class="mb-5 w-50">
         <form method="post" enctype="multipart/form-data">
             <table class='table'>
                 <tr>
@@ -115,7 +115,7 @@ if($_GET["id"]) {
   </div>
 
   <?php require_once "components/footer.php" ?>
-
+  <?php require_once "components/bootstrap_script.php" ?>
 </body>
 </html>
 

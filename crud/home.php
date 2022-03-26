@@ -81,7 +81,7 @@ mysqli_close($connect);
 
 
 <?php require_once "components/footer.php" ?>
-
+<?php require_once "components/bootstrap_script.php" ?>
 
 
 </body>
