@@ -152,6 +152,17 @@ h1 {
      object-position: center;
 }
 
+fieldset {
+  width: 50%;
+}
+
+.login-form {
+  width: 75%;
+}
+.login-form input {
+  width: 50%;
+}
+
 .nav-item > a > .btn {
   width: 130px;
 }
@@ -191,6 +202,29 @@ h1 {
   .navbar-brand .logo .logo-img {
     width: 3vw !important;
     height: 3vw !important;
+  }
+
+  .admin-table {
+    width: 100% !important;
+  }
+
+  fieldset {
+    width: 100% !important;
+  }
+
+  .login-form {
+    width: 100% !important;
+  }
+  .login-form input {
+    width: 100%;
+  }
+
+  .btn-form {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-form .btn {
+    margin-bottom: 10px;
   }
 }
 @media screen and (max-width: 740px) {
@@ -281,6 +315,11 @@ h1 {
   .main-footer {
     font-size: 4vw;
   }
+
+  .adm-picture {
+    width: 70px;
+    height: 70px;
+  }
 }
 @media screen and (max-width: 330px) {
   .navbar {
@@ -308,5 +347,10 @@ h1 {
 
   .main-footer {
     font-size: 3.5vw;
+  }
+
+  .adm-picture {
+    width: 50px;
+    height: 50px;
   }
 }/*# sourceMappingURL=style.css.map */

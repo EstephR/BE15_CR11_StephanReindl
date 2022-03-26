@@ -28,6 +28,17 @@ h1 {
     object-position: center;
 }
 
+fieldset {
+    width: 50%;
+}
+
+.login-form {
+    width: 75%;
+    input {
+        width: 50%;
+    }
+}
+
 .nav-item>a>.btn {
     width: 130px;
 }

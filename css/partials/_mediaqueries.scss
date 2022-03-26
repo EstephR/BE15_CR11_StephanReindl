@@ -36,6 +36,25 @@
                             }
                         }
                     }
+                    .admin-table {
+                        width: 100% !important;
+                    }
+                    fieldset {
+                        width: 100% !important;
+                    }
+                    .login-form {
+                        width: 100% !important;
+                        input {
+                            width: 100%;
+                        }
+                    }
+                    .btn-form {
+                        flex-direction: column;
+                        align-items: center;
+                        .btn {
+                            margin-bottom: 10px;
+                        }
+                    }
                 }
                 
                 @media screen and (max-width: $breakpoint-logoM) {
@@ -123,6 +142,10 @@
                     .main-footer {
                         font-size: 4vw;
                     }
+                    .adm-picture {
+                        width: 70px;
+                        height: 70px;
+                    }
                 }
                 
                 @media screen and (max-width: $breakpoint-logoXXS) {
@@ -149,5 +172,9 @@
                     }
                     .main-footer {
                         font-size: 3.5vw;
+                    }
+                    .adm-picture {
+                        width: 50px;
+                        height: 50px;
                     }
                 }

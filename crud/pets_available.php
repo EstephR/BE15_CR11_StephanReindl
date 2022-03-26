@@ -61,7 +61,7 @@ mysqli_close($connect);
 <div class="container admin-container">
     <div class="d-flex flex-column align-items-center justify-content-center h1-container">
             <h1 class="p-3 text-light text-center mt-5 mb-2 pets-headline">Pets available</h1>
-            <form class="w-50 justify-content-around d-flex mt-3 mb-5" method="POST"action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
+            <form class="btn-form w-50 justify-content-around d-flex mt-3 mb-5" method="POST"action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
             <button class="btn sort-btn" type="submit" name="btn-sort">Show Seniors</button></a>
             <a href="pets_available.php"><button class="btn sort-btn">Show All</button></a>
             </form>

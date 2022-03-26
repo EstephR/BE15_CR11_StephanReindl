@@ -81,7 +81,7 @@ mysqli_close($connect);
 
 
   <div class="container admin-container d-flex flex-column align-items-center">
-      <form class="w-75" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" autocomplete="off">
+      <form class="login-form" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" autocomplete="off">
           <div class="d-flex flex-column align-items-center">
             <h1 class="p-3 text-light text-center mt-3 mb-5">Login</h1>
         </div>
@@ -93,10 +93,10 @@ mysqli_close($connect);
           ?>
 
           <div class="d-flex flex-column align-items-center">
-          <input type="email" autocomplete="off" name="email" class="form-control mb-2 w-50 center" placeholder="Your Email" value="<?php echo $email; ?>" maxlength="40" />
+          <input type="email" autocomplete="off" name="email" class="form-control mb-2 center" placeholder="Your Email" value="<?php echo $email; ?>" maxlength="40" />
           <span class="text-danger"><?php echo $emailError; ?></span>
 
-          <input type="password" name="pass" class="form-control mb-2 w-50" placeholder="Your Password" maxlength="15" />
+          <input type="password" name="pass" class="form-control mb-2" placeholder="Your Password" maxlength="15" />
           <span class="text-danger"><?php echo $passError; ?></span>
           </div>
           <div class="d-flex flex-column align-items-center">

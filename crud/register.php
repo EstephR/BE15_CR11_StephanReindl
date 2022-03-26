@@ -149,7 +149,7 @@ mysqli_close($connect);
 
 
   <div class="container admin-container d-flex flex-column align-items-center">
-      <form class="w-75" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" autocomplete="off" enctype="multipart/form-data">
+      <form class="login-form" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" autocomplete="off" enctype="multipart/form-data">
       <div class="d-flex flex-column align-items-center">
             <h1 class="p-3 text-light text-center mt-3 mb-5">Sign in</h1>
         </div>
@@ -165,25 +165,25 @@ mysqli_close($connect);
           }
           ?>
         <div class="d-flex flex-column align-items-center">
-          <input type="text" name="fname" class="form-control mb-2 w-50" placeholder="First name" maxlength="50" value="<?php echo $fname ?>" />
+          <input type="text" name="fname" class="form-control mb-2" placeholder="First name" maxlength="50" value="<?php echo $fname ?>" />
           <span class="text-danger"> <?php echo $fnameError; ?> </span>
 
-          <input type="text" name="lname" class="form-control mb-2 w-50" placeholder="Last Name" maxlength="50" value="<?php echo $lname ?>" />
+          <input type="text" name="lname" class="form-control mb-2" placeholder="Last Name" maxlength="50" value="<?php echo $lname ?>" />
           <span class="text-danger"> <?php echo $fnameError; ?> </span>
 
-          <input type="email" name="email" class="form-control mb-2 w-50" placeholder="Enter Your Email" maxlength="40" value="<?php echo $email ?>" />
+          <input type="email" name="email" class="form-control mb-2" placeholder="Enter Your Email" maxlength="40" value="<?php echo $email ?>" />
           <span class="text-danger"> <?php echo $emailError; ?> </span>
 
-          <input type="text" name="address" class="form-control mb-2 w-50" placeholder="Your Address" maxlength="100" value="<?php echo $address ?>" />
+          <input type="text" name="address" class="form-control mb-2" placeholder="Your Address" maxlength="100" value="<?php echo $address ?>" />
           <span class="text-danger"> <?php echo $addressError; ?> </span>
 
-          <input type="text" name="phone" class="form-control mb-2 w-50" placeholder="Your Phone" maxlength="100" value="<?php echo $phone ?>" />
+          <input type="text" name="phone" class="form-control mb-2" placeholder="Your Phone" maxlength="100" value="<?php echo $phone ?>" />
           <span class="text-danger"> <?php echo $phoneError; ?> </span>
 
-          <input type="password" name="pass" class="form-control mb-2 w-50" placeholder="Enter Password" maxlength="15" />
+          <input type="password" name="pass" class="form-control mb-2" placeholder="Enter Password" maxlength="15" />
           <span class="text-danger"> <?php echo $passError; ?> </span>
 
-            <input class='form-control w-50 mb-2 start' type="file" name="picture">
+            <input class='form-control mb-2 start' type="file" name="picture">
             <span class="text-danger"> <?php echo $picError; ?> </span>
 
      

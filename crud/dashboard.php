@@ -25,7 +25,7 @@ if ($result->num_rows > 0) {
           <td><img class='img-thumbnail rounded-circle adm-picture' src='../img/" . $row['picture'] . "' alt=" . $row['name'] . "></td>
           <td>" . $row['name'] . "</td>
           <td><a href='update.php?id=" . $row['id'] . "'><button class='btn btn-warning btn-sm' type='button'>Edit</button></a>
-          <a href='delete.php?id=" . $row['id'] . "'><button class='btn btn-outline-danger btn-sm' type='button'>Delete</button></a></td>
+          <a href='animals/actions/a_animal_adm_delete.php?id=" . $row['id'] . "'><button class='btn btn-outline-danger btn-sm' type='button'>Delete</button></a></td>
        </tr>";
   }
 } else {
@@ -57,10 +57,10 @@ mysqli_close($connect);
 
 
   <div class="container admin-container d-flex flex-column align-items-center">
-  <div class="d-flex flex-column align-items-center w-100">
-    <h1 class="p-3 text-light text-center mt-5 mb-5">Animal Data</h1>
-</div>
-    <table class='table table-striped w-50'>
+      <div class="d-flex flex-column align-items-center w-100">
+        <h1 class="p-3 text-light text-center mt-5 mb-5">Animal Data</h1>
+      </div>
+            <table class='table table-striped w-50 admin-table'>
                <thead class='table-headline text-light'>
                    <tr>
                         <th>Picture</th>
@@ -72,7 +72,6 @@ mysqli_close($connect);
                     <?= $tbody ?>
                 </tbody>
            </table>
-      </div>
   </div>
 
   <?php require_once "components/footer.php" ?>
