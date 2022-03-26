@@ -4,12 +4,12 @@ require_once "../../components/db_connect.php";
 
 // if user will redirect to home
 if (isset($_SESSION['user'])) {
-  header("Location: home.php");
+  header("Location: ../../home.php");
   exit;
 }
 // if session is not set this will redirect to login page
 if (!isset($_SESSION['adm']) && !isset($_SESSION['user'])) {
-  header("Location: login.php");
+  header("Location: ../../login.php");
   exit;
 }
 
